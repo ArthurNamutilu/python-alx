@@ -5,4 +5,4 @@ for i in range(0, 10):
             print(", {:02d}".format(i * 10 + j), end="")
         else:
             print("{:02d}".format(i * 10 + j), end="")
-print() # new line
+print()  # new line
