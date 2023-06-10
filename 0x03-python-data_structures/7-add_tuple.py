@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 def add_tuple(tuple_a=(), tuple_b=()):
-    x = tuple_a[:2] + (0,0)[:2 - len(tuple_a)]
-    y = tuple_b[:2] + (0,0)[:2 - len(tuple_b)]
+    tuple_c = ()
+    tuple_x = tuple_a + (0, 0)
+    tuple_y = tuple_b + (0,0)
 
-    sum_a = x[0] + y[0]
-    sum_b = x[1] + y[1]
-
-    return sum_a, sum_b
+    tuple_c = tuple_x[0] + tuple_y[0], tuple_x[1] + tuple_y[1]
+    return tuple_c
